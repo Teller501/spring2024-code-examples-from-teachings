@@ -11,7 +11,6 @@ def greet(name: str, greeting: str = 'Hello') -> str:
 
 # Exercise 3: Working with Lists and Functions
 
-
 def filter_even_numbers(ints: list[int]) -> list[int]:
     return [i for i in ints if i % 2 == 0]
 
